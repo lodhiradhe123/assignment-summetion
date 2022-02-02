@@ -1,0 +1,8 @@
+s=input('enter the lottery  word');
+freq=[0]*26;
+
+for i in s :
+   freq[ord(i)-97] +=1 ;
+  
+  print(freq)
+   
